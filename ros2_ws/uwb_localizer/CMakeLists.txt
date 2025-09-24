@@ -9,6 +9,15 @@ endif()
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
+find_package(serial REQUIRED)
+
+add_executable(uwb_node src/uwb_node.cpp)
+ament_target_dependencies(uwb_node rclcpp std_msgs serial)
+
+install(TARGETS
+  uwb_node
+  DESTINATION lib/${PROJECT_NAME})
+
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
