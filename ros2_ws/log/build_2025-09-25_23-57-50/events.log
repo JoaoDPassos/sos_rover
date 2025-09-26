@@ -1,0 +1,148 @@
+[0.000000] (-) TimerEvent: {}
+[0.001401] (serial) JobQueued: {'identifier': 'serial', 'dependencies': OrderedDict()}
+[0.001672] (uwb_localizer) JobQueued: {'identifier': 'uwb_localizer', 'dependencies': OrderedDict()}
+[0.001736] (serial) JobStarted: {'identifier': 'serial'}
+[0.006963] (uwb_localizer) JobStarted: {'identifier': 'uwb_localizer'}
+[0.031914] (serial) JobProgress: {'identifier': 'serial', 'progress': 'cmake'}
+[0.034976] (serial) Command: {'cmd': ['/usr/bin/cmake', '/ros2_ws/serial-ros2', '-DCMAKE_INSTALL_PREFIX=/ros2_ws/install/serial'], 'cwd': '/ros2_ws/build/serial', 'env': OrderedDict([('HOSTNAME', 'b9247bd61bc3'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/ros2_ws/build/serial'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.039742] (uwb_localizer) JobProgress: {'identifier': 'uwb_localizer', 'progress': 'cmake'}
+[0.042367] (uwb_localizer) Command: {'cmd': ['/usr/bin/cmake', '/ros2_ws/uwb_localizer', '-DCMAKE_INSTALL_PREFIX=/ros2_ws/install/uwb_localizer'], 'cwd': '/ros2_ws/build/uwb_localizer', 'env': OrderedDict([('HOSTNAME', 'b9247bd61bc3'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/ros2_ws/build/uwb_localizer'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.098542] (-) TimerEvent: {}
+[0.199512] (-) TimerEvent: {}
+[0.301557] (-) TimerEvent: {}
+[0.353319] (serial) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.365780] (uwb_localizer) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.402512] (-) TimerEvent: {}
+[0.503566] (-) TimerEvent: {}
+[0.608653] (-) TimerEvent: {}
+[0.610639] (serial) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.626766] (uwb_localizer) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.643037] (serial) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.649616] (uwb_localizer) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.709496] (-) TimerEvent: {}
+[0.810516] (-) TimerEvent: {}
+[0.913387] (-) TimerEvent: {}
+[1.015515] (-) TimerEvent: {}
+[1.071896] (uwb_localizer) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.082008] (serial) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.088091] (uwb_localizer) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.088843] (uwb_localizer) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.089025] (uwb_localizer) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.092106] (uwb_localizer) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.098627] (serial) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.098932] (serial) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.099332] (serial) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.102874] (serial) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.116703] (-) TimerEvent: {}
+[1.218488] (-) TimerEvent: {}
+[1.321493] (-) TimerEvent: {}
+[1.424524] (-) TimerEvent: {}
+[1.486716] (uwb_localizer) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.491282] (serial) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.505293] (uwb_localizer) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.506679] (uwb_localizer) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.507696] (uwb_localizer) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.509629] (serial) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.510181] (serial) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.510455] (serial) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.515682] (uwb_localizer) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.516780] (serial) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.526471] (-) TimerEvent: {}
+[1.632488] (-) TimerEvent: {}
+[1.733485] (-) TimerEvent: {}
+[1.834496] (-) TimerEvent: {}
+[1.935487] (-) TimerEvent: {}
+[1.938398] (uwb_localizer) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.942338] (serial) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.036554] (-) TimerEvent: {}
+[2.071644] (uwb_localizer) StdoutLine: {'line': b'-- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.092292] (uwb_localizer) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.094656] (uwb_localizer) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.097932] (uwb_localizer) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.103773] (uwb_localizer) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.111559] (uwb_localizer) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.133337] (uwb_localizer) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.136460] (uwb_localizer) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.137570] (-) TimerEvent: {}
+[2.217502] (serial) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.238483] (-) TimerEvent: {}
+[2.262293] (serial) StdoutLine: {'line': b'-- Generating done\n'}
+[2.281976] (serial) StdoutLine: {'line': b'-- Build files have been written to: /ros2_ws/build/serial\n'}
+[2.288280] (serial) CommandEnded: {'returncode': 0}
+[2.288752] (serial) JobProgress: {'identifier': 'serial', 'progress': 'build'}
+[2.290802] (serial) Command: {'cmd': ['/usr/bin/cmake', '--build', '/ros2_ws/build/serial', '--', '-j10', '-l10'], 'cwd': '/ros2_ws/build/serial', 'env': OrderedDict([('HOSTNAME', 'b9247bd61bc3'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/ros2_ws/build/serial'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.339497] (-) TimerEvent: {}
+[2.435502] (uwb_localizer) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[2.441504] (-) TimerEvent: {}
+[2.462513] (uwb_localizer) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[2.504735] (uwb_localizer) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.512430] (uwb_localizer) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[2.542498] (-) TimerEvent: {}
+[2.564874] (serial) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/serial.dir/src/impl/unix.cc.o\x1b[0m\n'}
+[2.565813] (serial) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/serial.dir/src/serial.cc.o\x1b[0m\n'}
+[2.567260] (serial) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/serial.dir/src/impl/list_ports/list_ports_linux.cc.o\x1b[0m\n'}
+[2.643618] (-) TimerEvent: {}
+[2.744549] (-) TimerEvent: {}
+[2.845820] (-) TimerEvent: {}
+[2.942413] (uwb_localizer) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[2.943972] (uwb_localizer) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.947398] (-) TimerEvent: {}
+[3.048569] (-) TimerEvent: {}
+[3.152634] (-) TimerEvent: {}
+[3.253496] (-) TimerEvent: {}
+[3.257404] (serial) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX static library libserial.a\x1b[0m\n'}
+[3.354587] (-) TimerEvent: {}
+[3.362671] (uwb_localizer) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[3.363881] (uwb_localizer) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[3.404976] (uwb_localizer) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:12 (find_package):\n'}
+[3.405315] (uwb_localizer) StderrLine: {'line': b'  By not providing "Findserial.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[3.405591] (uwb_localizer) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "serial", but\n'}
+[3.405732] (uwb_localizer) StderrLine: {'line': b'  CMake did not find one.\n'}
+[3.406016] (uwb_localizer) StderrLine: {'line': b'\n'}
+[3.406365] (uwb_localizer) StderrLine: {'line': b'  Could not find a package configuration file provided by "serial" with any\n'}
+[3.409504] (uwb_localizer) StderrLine: {'line': b'  of the following names:\n'}
+[3.411641] (uwb_localizer) StderrLine: {'line': b'\n'}
+[3.413506] (uwb_localizer) StderrLine: {'line': b'    serialConfig.cmake\n'}
+[3.413613] (uwb_localizer) StderrLine: {'line': b'    serial-config.cmake\n'}
+[3.413712] (uwb_localizer) StderrLine: {'line': b'\n'}
+[3.413809] (uwb_localizer) StderrLine: {'line': b'  Add the installation prefix of "serial" to CMAKE_PREFIX_PATH or set\n'}
+[3.413901] (uwb_localizer) StderrLine: {'line': b'  "serial_DIR" to a directory containing one of the above files.  If "serial"\n'}
+[3.413991] (uwb_localizer) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[3.414079] (uwb_localizer) StderrLine: {'line': b'  installed.\n'}
+[3.414445] (uwb_localizer) StderrLine: {'line': b'\n'}
+[3.414965] (uwb_localizer) StderrLine: {'line': b'\x1b[0m\n'}
+[3.415114] (uwb_localizer) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[3.417780] (uwb_localizer) StdoutLine: {'line': b'See also "/ros2_ws/build/uwb_localizer/CMakeFiles/CMakeOutput.log".\n'}
+[3.418141] (uwb_localizer) CommandEnded: {'returncode': 1}
+[3.430187] (serial) StdoutLine: {'line': b'[100%] Built target serial\n'}
+[3.455474] (-) TimerEvent: {}
+[3.463018] (serial) CommandEnded: {'returncode': 0}
+[3.466027] (serial) JobProgress: {'identifier': 'serial', 'progress': 'install'}
+[3.494710] (serial) Command: {'cmd': ['/usr/bin/cmake', '--install', '/ros2_ws/build/serial'], 'cwd': '/ros2_ws/build/serial', 'env': OrderedDict([('HOSTNAME', 'b9247bd61bc3'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/ros2_ws/build/serial'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.511952] (uwb_localizer) JobEnded: {'identifier': 'uwb_localizer', 'rc': 1}
+[3.537476] (serial) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.539255] (serial) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/serial/share/serial/environment/library_path.sh\n'}
+[3.541193] (serial) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/serial/share/serial/environment/library_path.dsv\n'}
+[3.542266] (serial) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/serial/lib/libserial.a\n'}
+[3.545128] (serial) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/serial/include/serial/serial.h\n'}
+[3.546220] (serial) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/serial/include/serial/v8stdint.h\n'}
+[3.547471] (serial) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/serial/share/ament_index/resource_index/package_run_dependencies/serial\n'}
+[3.548781] (serial) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/serial/share/ament_index/resource_index/parent_prefix_path/serial\n'}
+[3.549831] (serial) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/serial/share/serial/environment/ament_prefix_path.sh\n'}
+[3.550604] (serial) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/serial/share/serial/environment/ament_prefix_path.dsv\n'}
+[3.551548] (serial) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/serial/share/serial/environment/path.sh\n'}
+[3.552380] (serial) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/serial/share/serial/environment/path.dsv\n'}
+[3.553410] (serial) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/serial/share/serial/local_setup.bash\n'}
+[3.554323] (serial) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/serial/share/serial/local_setup.sh\n'}
+[3.555313] (serial) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/serial/share/serial/local_setup.zsh\n'}
+[3.555585] (-) TimerEvent: {}
+[3.556455] (serial) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/serial/share/serial/local_setup.dsv\n'}
+[3.557249] (serial) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/serial/share/serial/package.dsv\n'}
+[3.558429] (serial) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/serial/share/ament_index/resource_index/packages/serial\n'}
+[3.559517] (serial) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[3.560354] (serial) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[3.561356] (serial) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/serial/share/serial/cmake/serialConfig.cmake\n'}
+[3.562179] (serial) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/serial/share/serial/cmake/serialConfig-version.cmake\n'}
+[3.563172] (serial) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/serial/share/serial/package.xml\n'}
+[3.568254] (serial) JobEnded: {'identifier': 'serial', 'rc': 'SIGINT'}
+[3.580948] (-) EventReactorShutdown: {}

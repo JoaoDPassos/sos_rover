@@ -1,0 +1,11 @@
+[01m[K/ros2_ws/uwb_localizer/src/uwb_node.cpp:[m[K In constructor ‘[01m[KUwbNode::UwbNode()[m[K’:
+[01m[K/ros2_ws/uwb_localizer/src/uwb_node.cpp:13:62:[m[K [01;31m[Kerror: [m[Kcannot bind non-const lvalue reference of type ‘[01m[Kserial::Timeout&[m[K’ to an rvalue of type ‘[01m[Kserial::Timeout[m[K’
+   13 |             serial_.setTimeout([01;31m[Kserial::Timeout::simpleTimeout(1000)[m[K);
+      |                                [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+In file included from [01m[K/ros2_ws/uwb_localizer/src/uwb_node.cpp:3[m[K:
+[01m[K/ros2_ws/install/serial/include/serial/serial.h:461:24:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid serial::Serial::setTimeout(serial::Timeout&)[m[K’
+  461 |   setTimeout ([01;36m[KTimeout &timeout[m[K);
+      |               [01;36m[K~~~~~~~~~^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/uwb_node.dir/build.make:76: CMakeFiles/uwb_node.dir/src/uwb_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/uwb_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

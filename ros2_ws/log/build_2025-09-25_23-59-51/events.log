@@ -1,0 +1,4 @@
+[0.000000] (-) TimerEvent: {}
+[0.000589] (-) JobUnselected: {'identifier': 'serial'}
+[0.000669] (-) JobUnselected: {'identifier': 'uwb_localizer'}
+[0.000872] (-) EventReactorShutdown: {}

@@ -1,0 +1,15 @@
+[0.039s] Invoking command in '/ros2_ws/build/uwb_localizer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/uwb_localizer -- -j10 -l10
+[0.274s] [35m[1mConsolidate compiler generated dependencies of target uwb_node[0m
+[0.414s] [ 50%] [32mBuilding CXX object CMakeFiles/uwb_node.dir/src/uwb_node.cpp.o[0m
+[1.874s] [01m[K/ros2_ws/uwb_localizer/src/uwb_node.cpp:[m[K In constructor ‘[01m[KUwbNode::UwbNode()[m[K’:
+[1.874s] [01m[K/ros2_ws/uwb_localizer/src/uwb_node.cpp:13:62:[m[K [01;31m[Kerror: [m[Kcannot bind non-const lvalue reference of type ‘[01m[Kserial::Timeout&[m[K’ to an rvalue of type ‘[01m[Kserial::Timeout[m[K’
+[1.874s]    13 |             serial_.setTimeout([01;31m[Kserial::Timeout::simpleTimeout(1000)[m[K);
+[1.874s]       |                                [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[1.875s] In file included from [01m[K/ros2_ws/uwb_localizer/src/uwb_node.cpp:3[m[K:
+[1.875s] [01m[K/ros2_ws/install/serial/include/serial/serial.h:461:24:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid serial::Serial::setTimeout(serial::Timeout&)[m[K’
+[1.875s]   461 |   setTimeout ([01;36m[KTimeout &timeout[m[K);
+[1.875s]       |               [01;36m[K~~~~~~~~~^~~~~~~[m[K
+[2.292s] gmake[2]: *** [CMakeFiles/uwb_node.dir/build.make:76: CMakeFiles/uwb_node.dir/src/uwb_node.cpp.o] Error 1
+[2.294s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/uwb_node.dir/all] Error 2
+[2.295s] gmake: *** [Makefile:146: all] Error 2
+[2.301s] Invoked command in '/ros2_ws/build/uwb_localizer' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/uwb_localizer -- -j10 -l10
