@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target uwb_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/uwb_node.dir/src/uwb_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable uwb_node[0m
+[100%] Built target uwb_node
+-- Install configuration: ""
+-- Installing: /ros2_ws/install/uwb_localizer/lib/uwb_localizer/uwb_node
+-- Set runtime path of "/ros2_ws/install/uwb_localizer/lib/uwb_localizer/uwb_node" to ""
+-- Installing: /ros2_ws/install/uwb_localizer/share/ament_index/resource_index/package_run_dependencies/uwb_localizer
+-- Installing: /ros2_ws/install/uwb_localizer/share/ament_index/resource_index/parent_prefix_path/uwb_localizer
+-- Installing: /ros2_ws/install/uwb_localizer/share/uwb_localizer/environment/ament_prefix_path.sh
+-- Installing: /ros2_ws/install/uwb_localizer/share/uwb_localizer/environment/ament_prefix_path.dsv
+-- Installing: /ros2_ws/install/uwb_localizer/share/uwb_localizer/environment/path.sh
+-- Installing: /ros2_ws/install/uwb_localizer/share/uwb_localizer/environment/path.dsv
+-- Installing: /ros2_ws/install/uwb_localizer/share/uwb_localizer/local_setup.bash
+-- Installing: /ros2_ws/install/uwb_localizer/share/uwb_localizer/local_setup.sh
+-- Installing: /ros2_ws/install/uwb_localizer/share/uwb_localizer/local_setup.zsh
+-- Installing: /ros2_ws/install/uwb_localizer/share/uwb_localizer/local_setup.dsv
+-- Installing: /ros2_ws/install/uwb_localizer/share/uwb_localizer/package.dsv
+-- Installing: /ros2_ws/install/uwb_localizer/share/ament_index/resource_index/packages/uwb_localizer
+-- Installing: /ros2_ws/install/uwb_localizer/share/uwb_localizer/cmake/uwb_localizerConfig.cmake
+-- Installing: /ros2_ws/install/uwb_localizer/share/uwb_localizer/cmake/uwb_localizerConfig-version.cmake
+-- Installing: /ros2_ws/install/uwb_localizer/share/uwb_localizer/package.xml

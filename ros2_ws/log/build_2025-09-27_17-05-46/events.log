@@ -1,0 +1,90 @@
+[0.000000] (-) TimerEvent: {}
+[0.001342] (serial) JobQueued: {'identifier': 'serial', 'dependencies': OrderedDict()}
+[0.001596] (uwb_localizer) JobQueued: {'identifier': 'uwb_localizer', 'dependencies': OrderedDict()}
+[0.003239] (serial) JobStarted: {'identifier': 'serial'}
+[0.005805] (uwb_localizer) JobStarted: {'identifier': 'uwb_localizer'}
+[0.029630] (serial) JobProgress: {'identifier': 'serial', 'progress': 'cmake'}
+[0.030537] (serial) JobProgress: {'identifier': 'serial', 'progress': 'build'}
+[0.032969] (serial) Command: {'cmd': ['/usr/bin/cmake', '--build', '/ros2_ws/build/serial', '--', '-j10', '-l10'], 'cwd': '/ros2_ws/build/serial', 'env': OrderedDict([('HOSTNAME', '09a21d9619ab'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/ros2_ws/build/serial'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.037420] (uwb_localizer) JobProgress: {'identifier': 'uwb_localizer', 'progress': 'cmake'}
+[0.038081] (uwb_localizer) JobProgress: {'identifier': 'uwb_localizer', 'progress': 'build'}
+[0.039622] (uwb_localizer) Command: {'cmd': ['/usr/bin/cmake', '--build', '/ros2_ws/build/uwb_localizer', '--', '-j10', '-l10'], 'cwd': '/ros2_ws/build/uwb_localizer', 'env': OrderedDict([('HOSTNAME', '09a21d9619ab'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/ros2_ws/build/uwb_localizer'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.098990] (-) TimerEvent: {}
+[0.203058] (-) TimerEvent: {}
+[0.288341] (uwb_localizer) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target uwb_node\x1b[0m\n'}
+[0.303954] (-) TimerEvent: {}
+[0.335740] (serial) StdoutLine: {'line': b'[100%] Built target serial\n'}
+[0.371690] (serial) CommandEnded: {'returncode': 0}
+[0.377746] (serial) JobProgress: {'identifier': 'serial', 'progress': 'install'}
+[0.403210] (uwb_localizer) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/uwb_node.dir/src/uwb_node.cpp.o\x1b[0m\n'}
+[0.405251] (-) TimerEvent: {}
+[0.413484] (serial) Command: {'cmd': ['/usr/bin/cmake', '--install', '/ros2_ws/build/serial'], 'cwd': '/ros2_ws/build/serial', 'env': OrderedDict([('HOSTNAME', '09a21d9619ab'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/ros2_ws/build/serial'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.455806] (serial) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.457096] (serial) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/serial/share/serial/environment/library_path.sh\n'}
+[0.457536] (serial) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/serial/share/serial/environment/library_path.dsv\n'}
+[0.457830] (serial) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/serial/lib/libserial.a\n'}
+[0.458096] (serial) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/serial/include/serial/serial.h\n'}
+[0.458357] (serial) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/serial/include/serial/v8stdint.h\n'}
+[0.458591] (serial) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/serial/share/ament_index/resource_index/package_run_dependencies/serial\n'}
+[0.458831] (serial) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/serial/share/ament_index/resource_index/parent_prefix_path/serial\n'}
+[0.459132] (serial) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/serial/share/serial/environment/ament_prefix_path.sh\n'}
+[0.459396] (serial) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/serial/share/serial/environment/ament_prefix_path.dsv\n'}
+[0.459632] (serial) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/serial/share/serial/environment/path.sh\n'}
+[0.459970] (serial) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/serial/share/serial/environment/path.dsv\n'}
+[0.460436] (serial) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/serial/share/serial/local_setup.bash\n'}
+[0.460795] (serial) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/serial/share/serial/local_setup.sh\n'}
+[0.461131] (serial) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/serial/share/serial/local_setup.zsh\n'}
+[0.461483] (serial) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/serial/share/serial/local_setup.dsv\n'}
+[0.461806] (serial) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/serial/share/serial/package.dsv\n'}
+[0.464127] (serial) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/serial/share/ament_index/resource_index/packages/serial\n'}
+[0.464348] (serial) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.464563] (serial) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.464751] (serial) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/serial/share/serial/cmake/serialConfig.cmake\n'}
+[0.464963] (serial) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/serial/share/serial/cmake/serialConfig-version.cmake\n'}
+[0.465312] (serial) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/serial/share/serial/package.xml\n'}
+[0.470127] (serial) CommandEnded: {'returncode': 0}
+[0.490973] (serial) JobEnded: {'identifier': 'serial', 'rc': 0}
+[0.505952] (-) TimerEvent: {}
+[0.606998] (-) TimerEvent: {}
+[0.708591] (-) TimerEvent: {}
+[0.808986] (-) TimerEvent: {}
+[0.914003] (-) TimerEvent: {}
+[1.014999] (-) TimerEvent: {}
+[1.116208] (-) TimerEvent: {}
+[1.218732] (-) TimerEvent: {}
+[1.320221] (-) TimerEvent: {}
+[1.421475] (-) TimerEvent: {}
+[1.521994] (-) TimerEvent: {}
+[1.623041] (-) TimerEvent: {}
+[1.724744] (-) TimerEvent: {}
+[1.828731] (-) TimerEvent: {}
+[1.934238] (-) TimerEvent: {}
+[2.035227] (-) TimerEvent: {}
+[2.049144] (uwb_localizer) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:33\x1b[m\x1b[K,\n'}
+[2.053004] (uwb_localizer) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/allocator.h:46\x1b[m\x1b[K,\n'}
+[2.053165] (uwb_localizer) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:64\x1b[m\x1b[K,\n'}
+[2.053275] (uwb_localizer) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[2.053388] (uwb_localizer) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/ros2_ws/uwb_localizer/src/uwb_node.cpp:1\x1b[m\x1b[K:\n'}
+[2.053492] (uwb_localizer) StderrLine: {'line': b'/usr/include/c++/11/ext/new_allocator.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = UwbNode; _Args = {}; _Tp = UwbNode]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.053593] (uwb_localizer) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/alloc_traits.h:516:17:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = UwbNode; _Args = {}; _Tp = UwbNode; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<UwbNode>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.053696] (uwb_localizer) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:519:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {}; _Tp = UwbNode; _Alloc = std::allocator<UwbNode>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.053795] (uwb_localizer) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:650:16:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = UwbNode; _Alloc = std::allocator<UwbNode>; _Args = {}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.053896] (uwb_localizer) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:1342:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<UwbNode>; _Args = {}; _Tp = UwbNode; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.053996] (uwb_localizer) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:409:59:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<UwbNode>; _Args = {}; _Tp = UwbNode]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.054096] (uwb_localizer) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:862:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = UwbNode; _Alloc = std::allocator<UwbNode>; _Args = {}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.054196] (uwb_localizer) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:878:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = UwbNode; _Args = {}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.054292] (uwb_localizer) StderrLine: {'line': b'\x1b[01m\x1b[K/ros2_ws/uwb_localizer/src/uwb_node.cpp:61:43:\x1b[m\x1b[K   required from here\n'}
+[2.054388] (uwb_localizer) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ext/new_allocator.h:162:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KUwbNode::UwbNode()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.054485] (uwb_localizer) StderrLine: {'line': b'  162 |         { \x1b[01;31m\x1b[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)\x1b[m\x1b[K; }\n'}
+[2.054582] (uwb_localizer) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.054701] (uwb_localizer) StderrLine: {'line': b'\x1b[01m\x1b[K/ros2_ws/uwb_localizer/src/uwb_node.cpp:21:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[KUwbNode::UwbNode(const string&, const string&, int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.054812] (uwb_localizer) StderrLine: {'line': b'   21 |     \x1b[01;36m\x1b[KUwbNode\x1b[m\x1b[K(const std::string &name, const std::string &port, int baud)\n'}
+[2.054925] (uwb_localizer) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.055022] (uwb_localizer) StderrLine: {'line': b'\x1b[01m\x1b[K/ros2_ws/uwb_localizer/src/uwb_node.cpp:21:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 3 arguments, 0 provided\n'}
+[2.135990] (-) TimerEvent: {}
+[2.191345] (uwb_localizer) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/uwb_node.dir/build.make:76: CMakeFiles/uwb_node.dir/src/uwb_node.cpp.o] Error 1\n'}
+[2.193254] (uwb_localizer) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/uwb_node.dir/all] Error 2\n'}
+[2.194921] (uwb_localizer) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[2.199521] (uwb_localizer) CommandEnded: {'returncode': 2}
+[2.205789] (uwb_localizer) JobEnded: {'identifier': 'uwb_localizer', 'rc': 2}
+[2.216609] (-) EventReactorShutdown: {}

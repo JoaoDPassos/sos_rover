@@ -1,0 +1,16 @@
+/ros2_ws/install/uwb_localizer/lib/uwb_localizer/uwb_node
+/ros2_ws/install/uwb_localizer/share/ament_index/resource_index/package_run_dependencies/uwb_localizer
+/ros2_ws/install/uwb_localizer/share/ament_index/resource_index/parent_prefix_path/uwb_localizer
+/ros2_ws/install/uwb_localizer/share/uwb_localizer/environment/ament_prefix_path.sh
+/ros2_ws/install/uwb_localizer/share/uwb_localizer/environment/ament_prefix_path.dsv
+/ros2_ws/install/uwb_localizer/share/uwb_localizer/environment/path.sh
+/ros2_ws/install/uwb_localizer/share/uwb_localizer/environment/path.dsv
+/ros2_ws/install/uwb_localizer/share/uwb_localizer/local_setup.bash
+/ros2_ws/install/uwb_localizer/share/uwb_localizer/local_setup.sh
+/ros2_ws/install/uwb_localizer/share/uwb_localizer/local_setup.zsh
+/ros2_ws/install/uwb_localizer/share/uwb_localizer/local_setup.dsv
+/ros2_ws/install/uwb_localizer/share/uwb_localizer/package.dsv
+/ros2_ws/install/uwb_localizer/share/ament_index/resource_index/packages/uwb_localizer
+/ros2_ws/install/uwb_localizer/share/uwb_localizer/cmake/uwb_localizerConfig.cmake
+/ros2_ws/install/uwb_localizer/share/uwb_localizer/cmake/uwb_localizerConfig-version.cmake
+/ros2_ws/install/uwb_localizer/share/uwb_localizer/package.xml

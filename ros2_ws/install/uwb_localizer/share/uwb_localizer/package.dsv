@@ -1,3 +1,6 @@
+source;share/uwb_localizer/hook/cmake_prefix_path.ps1
+source;share/uwb_localizer/hook/cmake_prefix_path.dsv
+source;share/uwb_localizer/hook/cmake_prefix_path.sh
 source;share/uwb_localizer/local_setup.bash
 source;share/uwb_localizer/local_setup.dsv
 source;share/uwb_localizer/local_setup.ps1
