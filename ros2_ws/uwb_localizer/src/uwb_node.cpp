@@ -25,18 +25,20 @@ public:
         pub_ = this->create_publisher<std_msgs::msg::String>("uwb_data", 10);
         
         // Read incoming Serial every 0.1 seconds
-        open_serial();
+    	open_serial();
     }
 
 private:
     void open_serial() {
-        try {
-            serial_.open();
-            RCLCPP_INFO(this->get_logger(), "Opened serial port: %s", serial_.getPort().c_str());
-        } catch (serial::IOException& e) {
-            RCLCPP_ERROR(this->get_logger(), "Unable to open port: %s", e.what());
-            return;
-        }
+	if (!serial_.isOpen()) {
+            try {
+            	serial_.open();
+                RCLCPP_INFO(this->get_logger(), "Opened serial port: %s", serial_.getPort().c_str());
+            } catch (serial::IOException& e) {
+                RCLCPP_ERROR(this->get_logger(), "Unable to open port: %s", e.what());
+                return;
+            }
+	}
         timer_ = this->create_wall_timer(
             std::chrono::milliseconds(100),
             std::bind(&UwbNode::read_serial, this));
@@ -61,7 +63,7 @@ int main(int argc, char* argv[]) {
 
     auto node = std::make_shared<UwbNode>(
         "uwb_node",       // node name
-        "/dev/ttyUSB0",   // port
+        "/dev/ttyACM0",   // port
         115200            // baud rate
     );
 
