@@ -18,7 +18,7 @@
 
 class UwbNode : public rclcpp::Node {
 public:
-    UwbNode(const std::string &name, const std::string &port, int baud) 
+    UwbNode(const std::string &name, const std::string &port = "/dev/ttyACM0", int baud = 115200) 
         : Node(name), serial_(port, baud, serial::Timeout::simpleTimeout(1000)) {
 
         // Publisher for relavant packages to read node data:
@@ -31,13 +31,13 @@ public:
 private:
     void open_serial() {
 	if (!serial_.isOpen()) {
-            try {
-            	serial_.open();
-                RCLCPP_INFO(this->get_logger(), "Opened serial port: %s", serial_.getPort().c_str());
-            } catch (serial::IOException& e) {
-                RCLCPP_ERROR(this->get_logger(), "Unable to open port: %s", e.what());
-                return;
-            }
+        try {
+            serial_.open();
+            RCLCPP_INFO(this->get_logger(), "Opened serial port: %s", serial_.getPort().c_str());
+        } catch (serial::IOException& e) {
+            RCLCPP_ERROR(this->get_logger(), "Unable to open port: %s", e.what());
+            return;
+        }
 	}
         timer_ = this->create_wall_timer(
             std::chrono::milliseconds(100),
@@ -62,7 +62,7 @@ int main(int argc, char* argv[]) {
     rclcpp::init(argc, argv);
 
     auto node = std::make_shared<UwbNode>(
-        "uwb_node",       // node name
+        "base_1",       // node name
         "/dev/ttyACM0",   // port
         115200            // baud rate
     );
